@@ -102,7 +102,11 @@ def full?(board)
 end
 ################################################
 def draw?(board)
+<<<<<<< HEAD
   if !won?(board) && full?(board)
+=======
+  if !won?(board) && over?(board)
+>>>>>>> d2111ad0749d8704d1d8a9db281e1f2582fd8de1
     return true
   end
 end
